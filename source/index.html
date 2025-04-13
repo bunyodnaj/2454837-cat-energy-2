@@ -17,7 +17,7 @@
   <!-- Header -->
   <header class="header">
     <a href="#" class="header__logo">
-      <img src="" alt="" class="header__img">
+      <picture></picture>
     </a>
     <a href="#" class="header__logo-description logo-description">
       <img src="" alt="">
@@ -50,7 +50,11 @@
     <section class="program">
       <h1 class="program__title">Функциональное питание для котов</h1>
       <p class="program__description">Занялся собой? Займись котом!</p>
-      <img src="" alt="" class="program__img">
+      <picture>
+        <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/index-can-d@1x.png, images/index-can-d@2x.png 2x">
+        <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/index-can-t@1x.png, images/index-can-t@2x.png 2x">
+        <img src="images/index-can-m@1x.png 1x" srcset="images/index-can-m@2x.png 2x" width="280" height="270" alt="Cat energy">
+      </picture>
       <button class="program__button">подобрать программу</button>
     </section>
     <!-- Call to action -->
@@ -112,7 +116,10 @@
     </section>
     <!-- Slider -->
     <section class="slider">
-      <img src="" alt="" class="slider__img">
+      <div class="slider_box"> 
+        <img src="images/cat-before-d@1x.png" height="512" width="560" alt="Cat slider" class="slider__img" srcset="images/cat-before-d@2x.png 2x">
+        <img src="images/cat-after-d@1x.png" height="512" width="560" alt="Cat slider" class="slider__img" srcset="images/cat-after-d@2x.png 2x"></div>
+      x
       <img src="" alt="" class="slider__img">
     </section>
     <!-- Контакты -->
@@ -124,7 +131,12 @@
     </section>
     <!-- Карта -->
     <section class="map">
-      <img src="" alt="" class="map__img">
+      <img src="images/map-pin-d@1x.png" width="113" height="106" srcset="images/map-pin-d@2x.png" class="map__pin" alt="">
+      <picture>
+        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-d@1x.png 1x, images/map-d@2x.png 2x">
+        <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-t@1x.png 1x, images/map-t@2x.png 2x">
+        <img src="images/map-m@1x.png 1x" srcset="images/map-m@2x.png 2x" width="320" height="362" alt="Cat energy">
+      </picture>
     </section>
   </main>
   <!-- footer -->
