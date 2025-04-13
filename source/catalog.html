@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <title>Название проекта</title>
- <meta name="viewport" content="width=device-width,initial-scale=1">
- <link rel="stylesheet" href="styles/styles.css">
- <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
- <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
- <link rel="apple-touch-icon" href="favicons/apple.png"> <!-- 180×180 -->
- <link rel="manifest" href="manifest.webmanifest">
- <script src="scripts/index.js" defer></script> 
+  <meta charset="UTF-8">
+  <title>Название проекта</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png"> <!-- 180×180 -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="page__body">
@@ -31,8 +31,9 @@
     <!-- Каталог -->
     <section class="catalog">
       <h2 class="catalog__title">Каталог продукции</h2>
+
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-1-d@1x.png" height="161" width="172" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-1-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy PRO
             500 г</h3>
@@ -55,11 +56,9 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-2-d@1x.png" height="195" width="208" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-2-d@2.png 2x">
         <div class="catalog__box">
-          <h3 class="catalog__description">Cat Energy
-            PRO
-            1000 г</h3>
+          <h3 class="catalog__description">Cat Energy PRO 1000 г</h3>
           <p>
             <span>Масса</span>
             <span></span>
@@ -79,7 +78,7 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-3-d@1x.png" height="163" width="174" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-3-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy
             PRO
@@ -103,7 +102,7 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-4-d@1x.png" height="172" width="196" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-4-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy
             PRO
@@ -127,7 +126,7 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-5-d@1x.png" height="161" width="171" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-5-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy
             sLIM
@@ -151,7 +150,7 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-6-d@1x.png" height="172" width="196" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-6-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy
             SLIM
@@ -175,7 +174,7 @@
         </div>
       </div>
       <div class="catalog__item catalog-item">
-        <img src="" alt="">
+        <img src="images/catalog-7-d@1x.png" height="163" width="174" alt="Cat energy pro 500" class="catalog__img" srcset="images/catalog-7-d@2.png 2x">
         <div class="catalog__box">
           <h3 class="catalog__description">Cat Energy
             slim
@@ -256,7 +255,12 @@
     </section>
     <!-- Карта -->
     <section class="map">
-      <img src="" alt="" class="map__img">
+      <img src="images/map-pin-d@1x.png" width="113" height="106" srcset="images/map-pin-d@2x.png" class="map__pin" alt="">
+      <picture>
+        <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-d@1x.png 1x, images/map-d@2x.png 2x">
+        <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-t@1x.png 1x, images/map-t@2x.png 2x">
+        <img src="images/map-m@1x.png 1x" srcset="images/map-m@2x.png 2x" width="320" height="362" alt="Cat energy">
+      </picture>
     </section>
   </main>
   <!-- footer -->
